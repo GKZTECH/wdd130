@@ -1,0 +1,90 @@
+/* rafting.css */
+
+:root {
+    --primary-color: #1100FF; /* Blue */
+    --secondary-color: #FFA500; /* orange */
+    --accent-color: #87CEEB; /* sky blue */
+    --text-color: #333333; /* Dark Gray */
+    --background-color: #B2FFFF; /* Celeste */
+}
+
+body {
+    font-family: arial, sans-serif;
+    margin: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+   
+}
+
+header .logo {
+    height: 50px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+        font-family: "Oswald", serif;
+        font-optical-sizing: auto;
+        font-size: 70px;
+        color: #FFA500;
+}
+
+
+article {
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+article .logo {
+    height: 100px;
+    padding-left: 1000px;
+    display: grid;
+}
+
+
+
+section {
+    padding: 50px;
+    margin: 50px;
+    text-align: center;
+    font-family: "Lato", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #FFA500;
+    
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 10px 20px;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .social-media img {
+    width: 30px;
+    vertical-align: middle;
+}

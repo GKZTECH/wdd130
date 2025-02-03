@@ -9,7 +9,7 @@
 }
 
 body {
-    font-family: arial, sans-serif;
+    font-family: "Lato", serif;
     margin: 0;
     background-color: var(--background-color);
     color: var(--text-color);
@@ -39,12 +39,43 @@ header nav a {
 .hero {
     position: relative;
     text-align: center;
-        font-family: "Oswald", serif;
-        font-optical-sizing: auto;
-        font-size: 70px;
+        font-family: "Lato", serif;
+        font-size: 30px;
         color: #FFA500;
+        
 }
 
+.hero article img {
+    width: 100px;
+    
+}
+
+.history {
+    background-color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.history h2 {
+    font-family: "Lato", serif;
+    font-size: 40px;
+    color: var(--primary-color);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.history-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.history-content img {
+    width: 150px;
+    margin: 0 15px;
+}
 
 article {
     padding: 20px;
@@ -60,7 +91,6 @@ article .logo {
 }
 
 
-
 section {
     padding: 50px;
     margin: 50px;
@@ -71,6 +101,28 @@ section {
   color: #FFA500;
     
 }
+
+.adventure {
+    text-align: center;
+    padding: 40px;
+    background-color: white;
+}
+
+.adventure h2 {
+    font-size: 1.8rem;
+    color: var(--primary-color);
+}
+
+.adventure-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.adventure-gallery img {
+    width: 100px;
+
+}    
 
 footer {
     background-color: var(--primary-color);

@@ -1,0 +1,140 @@
+/* contact.css */
+
+:root {
+    --primary-color: #1100FF; /* Blue */
+    --secondary-color: #FFA500; /* Orange */
+    --accent-color: #87CEEB; /* Sky Blue */
+    --text-color: #333333; /* Dark Gray */
+    --background-color: #B2FFFF; /* Celeste */
+}
+
+body {
+    font-family: "Lato", serif;
+    margin: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+header .logo {
+    height: 50px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    font-size: 30px;
+    color: var(--secondary-color);
+}
+
+.contact-info, .team, .contact-form {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact-info p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.contact-info iframe {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.employee {
+    text-align: center;
+    margin: 10px;
+}
+
+.employee img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form fieldset {
+    border: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.contact-form button {
+    margin-top: 15px;
+    background: var(--primary-color);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #005f87;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 10px 20px;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .social-media img {
+    width: 30px;
+    vertical-align: middle;
+}
+
+footer a {
+    color: var(--accent-color);
+    text-decoration: none;
+}

@@ -116,11 +116,11 @@ section {
 .adventure-gallery {
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 20px;
 }
 
 .adventure-gallery img {
-    width: 100px;
+    width: 20px;
 
 }    
 

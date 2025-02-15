@@ -1,17 +1,16 @@
 
 
 :root {
-    --primary-color: #1100FF; /* Blue */
-    --secondary-color: #FFA500; /* orange */
-    --accent-color: #87CEEB; /* sky blue */
-    --text-color: #333333; /* Dark Gray */
-    --background-color: #B2FFFF; /* Celeste */
+    --primary-color: #1e1a57;
+    --secondary-color: #FFA500;
+    --accent-color: #87CEEB;
+    --text-color: #333333;
+    --background-color: #B2FFFF;
 }
 
 body {
     font-family: "Lato", serif;
-    margin: 0;
-    background-color: var(--background-color);
+    margin: 0;   
     color: var(--text-color);
 }
 
@@ -22,113 +21,81 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-   
 }
 
-header .logo {
+header .logo img {
     height: 50px;
 }
 
-header nav a {
+nav a {
     text-decoration: none;
     color: var(--secondary-color);
     margin: 0 15px;
     font-weight: bold;
 }
 
-.hero {
-    position: relative;
+.cta {
     text-align: center;
-        font-family: "Lato", serif;
-        font-size: 30px;
-        color: #FFA500;
-        
+    background-color: var(--accent-color);
+    padding: 40px;
+    color: var(--secondary-color);
 }
 
-.hero article img {
-    width: 100px;
+.cta-button {
+    display: inline-block;
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.trip-descriptions {
+    text-align: center;
+    color: var(--secondary-color);
+    padding: 80px;
+    display: inline;
     
 }
 
-.history {
-    background-color: white;
-    text-align: center;
-    padding: 40px;
-}
 
-.history h2 {
-    font-family: "Lato", serif;
-    font-size: 40px;
-    color: var(--primary-color);
-    display: inline-block;
-    padding: 10px 20px;
+
+
+.trip img {
+    width: 50%;
     border-radius: 5px;
 }
 
-.history-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-}
-
-.history-content img {
-    width: 150px;
-    margin: 0 15px;
-}
-
-article {
-    padding: 20px;
-    margin: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 10px;
-}
-
-article .logo {
-    height: 100px;
-    padding-left: 1000px;
-    display: grid;
-}
-
-
-section {
-    padding: 50px;
-    margin: 50px;
+.trips-table {
     text-align: center;
-    font-family: "Lato", serif;
-  font-weight: 400;
-  font-style: normal;
-  color: #FFA500;
-    
-}
-
-.adventure {
-    text-align: center;
+    color: var(--secondary-color);
     padding: 40px;
-    background-color: white;
 }
 
-.adventure h2 {
-    font-size: 1.8rem;
-    color: var(--primary-color);
+.trips-table table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
 }
 
-.adventure-gallery {
-    display: flex;
-    justify-content: center;
-    gap: 100px;
+.trips-table th, .trips-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
 }
 
-.adventure-gallery img {
-    width: 100px;
-
-}    
+.trips-table th {
+    background-color: var(--primary-color);
+    color: white;
+}
 
 footer {
     background-color: var(--primary-color);
     color: var(--secondary-color);
     text-align: center;
-    padding: 10px 20px;
+    padding: 15px 0;
+    margin-top: 20px;
 }
 
 footer .social-media a {
@@ -139,4 +106,9 @@ footer .social-media a {
 footer .social-media img {
     width: 30px;
     vertical-align: middle;
+}
+
+footer a {
+    color: var(--accent-color);
+    text-decoration: none;
 }

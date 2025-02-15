@@ -59,7 +59,7 @@ header nav a {
 .history h2 {
     font-family: "Lato", serif;
     font-size: 40px;
-    color: var(--primary-color);
+    color: #FFA500;
     display: inline-block;
     padding: 10px 20px;
     border-radius: 5px;
@@ -73,7 +73,7 @@ header nav a {
 }
 
 .history-content img {
-    width: 150px;
+    width: 350px;
     margin: 0 15px;
 }
 
@@ -110,7 +110,7 @@ section {
 
 .adventure h2 {
     font-size: 1.8rem;
-    color: var(--primary-color);
+    color: #FFA500;
 }
 
 .adventure-gallery {
@@ -120,7 +120,7 @@ section {
 }
 
 .adventure-gallery img {
-    width: 20px;
+    width: 400px;
 
 }    
 

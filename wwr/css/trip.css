@@ -1,7 +1,7 @@
 
 
 :root {
-    --primary-color: #1e1a57;
+    --primary-color: #1100FF;
     --secondary-color: #FFA500;
     --accent-color: #87CEEB;
     --text-color: #333333;
@@ -11,7 +11,8 @@
 body {
     font-family: "Lato", serif;
     margin: 0;   
-    color: var(--text-color);
+    color: #FFA500;
+    text-align: center;
 }
 
 header {
